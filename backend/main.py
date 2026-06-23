@@ -32,7 +32,7 @@ app = FastAPI(title="BizQuery API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://vercel.com/anabharadwajs-projects/bizquery-nl-to-sql/7gBMjY44cXubNNyiiHSzgnjwMexZ"],
+    allow_origins=["http://localhost:5173", "https://bizquery-nl-to-sql.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
